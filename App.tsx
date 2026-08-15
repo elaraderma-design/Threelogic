@@ -32,8 +32,8 @@ const DEFAULT_CASE_DATA = {
       shortBio: "Kapten Bajak Laut Topi Jerami. Pecinta daging, petualangan, dan kebebasan. Tidak pernah mundur saat melindungi teman-temannya.",
       statement: "Aku akan menjadi Raja Bajak Laut! Tidak peduli seberapa kuat lawanku atau seberapa besar rintangannya, aku akan terus maju. Teman-temanku adalah hartaku yang paling berharga, dan siapa pun yang menyakiti mereka harus berhadapan denganku. Selama masih bisa berdiri, aku tidak akan menyerah pada mimpiku.",
       profileText: "Seorang kapten muda yang penuh semangat dengan topi jerami khasnya. Memiliki kemampuan Buah Iblis yang membuat tubuhnya elastis seperti karet. Dikenal karena keberaniannya yang luar biasa, tekad yang tidak tergoyahkan, serta kemampuannya menginspirasi orang-orang di sekitarnya untuk mengejar impian mereka.",
-      image: "/assets/characters/Monkey D. Luffy.png",
-      chibiImage: "/assets/characters/Monkey D. Luffy_Chibi.png",
+      image: "/assets/characters/Monkey D. Luffy.png.png",
+      chibiImage: "/assets/characters/Monkey D. Luffy_Chibi.png.png",
       correctSeat: "D",
       avatarBg: "from-amber-900/60 to-slate-900",
       accentColor: "border-amber-500/50"
