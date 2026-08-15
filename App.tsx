@@ -32,8 +32,8 @@ const DEFAULT_CASE_DATA = {
       shortBio: "Membangun dan menambal kapal. Beraroma damar pinus. Sangat percaya takhayul tentang kursi tertentu.",
       statement: "Jangan dudukkan saya di Kursi J. Ada kenangan buruk di sana. Tukang kayu sebelum saya duduk di Kursi J, dan kami tidak ingin membicarakan apa yang terjadi padanya. Saya terima kursi lain di geladak ini tanpa komplain. Apa saja, asal bukan J. Jangan tanya dua kali.",
       profileText: "Seorang pengrajin kayu bertubuh kekar yang menangani perbaikan geladak. Dikenal sangat meyakini takhayul posisi tempat duduk di kapal.",
-      image: "/assets/characters/shipwright.png",
-      chibiImage: "/assets/characters/shipwright_chibi.png",
+      image: "/assets/characters/Luffy.png",
+      chibiImage: "/assets/characters/Luffy_chibi.png",
       correctSeat: "D",
       avatarBg: "from-amber-900/60 to-slate-900",
       accentColor: "border-amber-500/50"
