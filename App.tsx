@@ -52,7 +52,6 @@ const DEFAULT_CASE_DATA = {
       accentColor: "border-purple-500/50"
     },
     {
-     {
   id: "nami",
   name: "NAMI",
   role: "Navigator",
