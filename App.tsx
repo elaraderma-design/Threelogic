@@ -70,8 +70,7 @@ const DEFAULT_CASE_DATA = {
   role: "Pustakawan",
   shortBio: "Pustakawan cerdas yang mencari kebenaran sejarah dunia melalui Poneglyph.",
   statement: "Sejarah tidak boleh dilupakan. Selama aku masih hidup, aku akan terus mencari kebenaran yang tersembunyi.",
-  profileText: "Aku suka membaca saat makan,  aku tidak bisa melakukan itu di dekat kapten ataupun keributan, tempatkan saja aku  jauh jauh dari kursi kapten dan kursi yang terlali ribut 
-",
+  profileText: "Aku suka membaca saat makan,  aku tidak bisa melakukan itu di dekat kapten ataupun keributan, tempatkan saja aku  jauh jauh dari kursi kapten dan kursi yang terlali ribut.",
   image: "/assets/characters/Nico Robin.png",
   chibiImage: "/assets/characters/Nico Robin_chibi.png",
   correctSeat: "C",
