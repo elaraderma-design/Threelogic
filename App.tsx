@@ -191,7 +191,7 @@ export default function App() {
     D: "shipwright"
   });
 
-  const [activeRightTab, setActiveRightTab] = useState('statement');
+  const [activeRightTab, setActiveRightTab] = useState('profile');
   const [showHowToPlay, setShowHowToPlay] = useState(false);
   const [showShipsLog, setShowShipsLog] = useState(false);
   const [showSeatSelectorModal, setShowSeatSelectorModal] = useState(false);
@@ -689,17 +689,6 @@ export default function App() {
             
             <div className="flex border-b-2 border-[#8a6d2b] bg-[#ede0c4]">
               <button
-                onClick={() => setActiveRightTab('statement')}
-                className={`flex-1 py-2.5 px-3 font-mono font-bold text-xs uppercase tracking-wider flex items-center justify-center space-x-1.5 transition-colors ${
-                  activeRightTab === 'statement'
-                    ? 'bg-[#fbf5e6] text-[#6b1d1d] border-b-2 border-[#6b1d1d]'
-                    : 'text-slate-700 hover:bg-[#e2d3b0]'
-                }`}
-              >
-                <Search className="w-3.5 h-3.5" />
-                <span>KESAKSIAN</span>
-              </button>
-              <button
                 onClick={() => setActiveRightTab('profile')}
                 className={`flex-1 py-2.5 px-3 font-mono font-bold text-xs uppercase tracking-wider flex items-center justify-center space-x-1.5 transition-colors ${
                   activeRightTab === 'profile'
@@ -709,6 +698,17 @@ export default function App() {
               >
                 <User className="w-3.5 h-3.5" />
                 <span>PROFIL</span>
+              </button>
+              <button
+                onClick={() => setActiveRightTab('statement')}
+                className={`flex-1 py-2.5 px-3 font-mono font-bold text-xs uppercase tracking-wider flex items-center justify-center space-x-1.5 transition-colors ${
+                  activeRightTab === 'statement'
+                    ? 'bg-[#fbf5e6] text-[#6b1d1d] border-b-2 border-[#6b1d1d]'
+                    : 'text-slate-700 hover:bg-[#e2d3b0]'
+                }`}
+              >
+                <Search className="w-3.5 h-3.5" />
+                <span>KESAKSIAN</span>
               </button>
             </div>
 
