@@ -39,12 +39,12 @@ const DEFAULT_CASE_DATA = {
       accentColor: "border-amber-500/50"
     },
     {
-      id: "musician",
-      name: "PEMUSIK",
-      role: "Pemusik Geladak",
-      shortBio: "Memainkan biola saat matahari terbenam. Meminta duduk di dekat Cendekiawan untuk mencari inspirasi.",
-      statement: "Saya harus duduk tepat di Kursi A atau B di dekat haluan depan agar melodi saya bergema menembus malam. Lagipula, Cendekiawan berjanji akan mengkritik lirik lagu saya jika kami duduk berdekatan.",
-      profileText: "Seniman yang selalu membawa biola. Menolak duduk di kursi belakang karena hembusan angin laut terlalu kencang.",
+      id: "pendekar pedang",
+      name: "PENDEKAR PEDANG",
+      role: "Master Pedang",
+      shortBio: "Pendekar tiga pedang yang setia kepada kaptennya. Terus berlatih untuk menjadi pendekar pedang terkuat di dunia.",
+      statement: "Aku tidak peduli seberapa kuat lawanku. Jika itu menghalangi jalan kaptenku, aku akan menebasnya. Janjiku untuk menjadi pendekar pedang nomor satu di dunia tidak akan pernah berubah.",
+      profileText: "Seorang ahli pedang dengan gaya Santoryu (Tiga Pedang). Dikenal karena tekadnya yang kuat, kesetiaannya kepada kru Topi Jerami, dan kemampuannya menghadapi musuh yang jauh lebih kuat tanpa rasa takut.",
       image: "/assets/characters/musician.png",
       chibiImage: "/assets/characters/musician_chibi.png",
       correctSeat: "A",
