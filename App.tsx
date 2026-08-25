@@ -700,7 +700,7 @@ export default function App() {
                 <span>KESAKSIAN</span>
               </button>
               <button
-                onClick={() => setActiveRightTab('profile')}
+                onClick={() => setActiveLeftTab('profile')}
                 className={`flex-1 py-2.5 px-3 font-mono font-bold text-xs uppercase tracking-wider flex items-center justify-center space-x-1.5 transition-colors ${
                   activeRightTab === 'profile'
                     ? 'bg-[#fbf5e6] text-[#6b1d1d] border-b-2 border-[#6b1d1d]'
