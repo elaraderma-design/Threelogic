@@ -19,7 +19,7 @@ const DEFAULT_CASE_DATA = {
   caseInfo: {
     id: "case-robin-01",
     title: "APAKAH KURSI INI TERISI?",
-    subtitle: "MISTERI GELADAK ROBIN",
+    subtitle: "MISTERI GELADAK ONE PIECE",
     tagline: "Sepuluh tersangka. Sepuluh kursi. Baca petunjuk dengan cermat dan dudukkan para awak.",
     totalSeats: 10
   },
