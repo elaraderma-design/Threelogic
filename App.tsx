@@ -565,7 +565,7 @@ export default function App() {
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-4 items-start">
           
-          {/* KOLOM 1: PILIH PROFIL (KANAN) */}
+          {/* KOLOM 1: PILIH PROFIL (KIRI) */}
           <div className="lg:col-span-3 bg-[#0d0f28]/90 border-2 border-[#3d325c] rounded-2xl p-3 flex flex-col h-[520px] shadow-xl">
             <div className="text-[10px] font-mono tracking-widest text-[#d4af37] uppercase mb-2 text-center border-b border-[#3d325c] pb-1.5">
               PILIH PROFIL AWAK
@@ -684,7 +684,7 @@ export default function App() {
 
           </div>
 
-          {/* KOLOM 3: PERKAMEN KESAKSIAN & PROFIL (KIRI) */}
+          {/* KOLOM 3: PERKAMEN KESAKSIAN & PROFIL (KANAN) */}
           <div className="lg:col-span-4 bg-[#fbf5e6] text-slate-900 border-4 border-[#8a6d2b] rounded-2xl h-[520px] flex flex-col shadow-2xl relative overflow-hidden font-serif">
             
             <div className="flex border-b-2 border-[#8a6d2b] bg-[#ede0c4]">
