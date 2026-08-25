@@ -43,7 +43,7 @@ const DEFAULT_CASE_DATA = {
       name: "PENDEKAR PEDANG",
       role: "Master Pedang",
       shortBio: "Pendekar tiga pedang yang setia kepada kaptennya. Terus berlatih untuk menjadi pendekar pedang terkuat di dunia.",
-      statement: "Aku tidak peduli seberapa kuat lawanku. Jika itu menghalangi jalan kaptenku, aku akan menebasnya. Janjiku untuk menjadi pendekar pedang nomor satu di dunia tidak akan pernah berubah.",
+      statement: "Aku selalu duduk di sebelah kapten agar aku bisa menyelesaikan tugasku, dan kapten selalu suka aku disana. ",
       profileText: "Seorang ahli pedang dengan gaya Santoryu (Tiga Pedang). Dikenal karena tekadnya yang kuat, kesetiaannya kepada kru Topi Jerami, dan kemampuannya menghadapi musuh yang jauh lebih kuat tanpa rasa takut.",
       image: "/assets/characters/Roronoa-zoro.png",
       chibiImage: "/assets/characters/Roronoa-zoro_chibi.png",
