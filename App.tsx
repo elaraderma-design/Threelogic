@@ -45,8 +45,8 @@ const DEFAULT_CASE_DATA = {
       shortBio: "Pendekar tiga pedang yang setia kepada kaptennya. Terus berlatih untuk menjadi pendekar pedang terkuat di dunia.",
       statement: "Aku tidak peduli seberapa kuat lawanku. Jika itu menghalangi jalan kaptenku, aku akan menebasnya. Janjiku untuk menjadi pendekar pedang nomor satu di dunia tidak akan pernah berubah.",
       profileText: "Seorang ahli pedang dengan gaya Santoryu (Tiga Pedang). Dikenal karena tekadnya yang kuat, kesetiaannya kepada kru Topi Jerami, dan kemampuannya menghadapi musuh yang jauh lebih kuat tanpa rasa takut.",
-      image: "/assets/characters/Roronoa zoro.png",
-      chibiImage: "/assets/characters/Roronoa zoro_chibi.png",
+      image: "/assets/characters/Roronoa-zoro.png",
+      chibiImage: "/assets/characters/Roronoa-zoro_chibi.png",
       correctSeat: "A",
       avatarBg: "from-purple-900/60 to-slate-900",
       accentColor: "border-purple-500/50"
