@@ -1001,9 +1001,6 @@ export default function App() {
                     </div>
 
                     <div className="flex items-center space-x-2 font-mono text-[11px]">
-                      {!item.isCorrect && (
-                        <span className="text-amber-400">Harusnya: Kursi {item.correctSeat}</span>
-                      )}
                       {item.isCorrect ? (
                         <CheckCircle2 className="w-4 h-4 text-emerald-400" />
                       ) : (
