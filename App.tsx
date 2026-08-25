@@ -34,7 +34,7 @@ const DEFAULT_CASE_DATA = {
       profileText: "Aku adalah orang yang tegas tidak ada seorang pun yang berani membantahku. Kalo kataku F harus F jangan dibantah.",
       image: "/assets/characters/Monkey D. Luffy.png.png",
       chibiImage: "/assets/characters/Monkey D. Luffy_Chibi.png.png",
-      correctSeat: "D",
+      correctSeat: "F",
       avatarBg: "from-amber-900/60 to-slate-900",
       accentColor: "border-amber-500/50"
     },
@@ -47,7 +47,7 @@ const DEFAULT_CASE_DATA = {
       profileText: "Aku selalu duduk di sebelah kapten agar aku bisa menyelesaikan tugasku, dan kapten selalu suka aku disana.",
       image: "/assets/characters/Roronoa-zoro.png",
       chibiImage: "/assets/characters/Roronoa-zoro_chibi.png",
-      correctSeat: "A",
+      correctSeat: "E",
       avatarBg: "from-purple-900/60 to-slate-900",
       accentColor: "border-purple-500/50"
     },
@@ -60,7 +60,7 @@ const DEFAULT_CASE_DATA = {
   profileText: "Aku adalah yang mengurus peta dan aku bekerja sama dengan seorang pustakawan yang mengurus buku di kapal ini, dan dia selalu duduk satu kursi setelahku ketika bekerja.",
   image: "/assets/characters/Nami.png",
   chibiImage: "/assets/characters/Nami_chibi.png",
-  correctSeat: "B",
+  correctSeat: "A",
   avatarBg: "from-orange-900/60 to-slate-900",
   accentColor: "border-orange-500/50"
 },
@@ -73,7 +73,7 @@ const DEFAULT_CASE_DATA = {
   profileText: "Aku suka membaca saat makan,  aku tidak bisa melakukan itu di dekat kapten ataupun keributan, tempatkan saja aku  jauh jauh dari kursi kapten dan kursi yang terlali ribut.",
   image: "/assets/characters/Nico Robin.png",
   chibiImage: "/assets/characters/Nico Robin_chibi.png",
-  correctSeat: "C",
+  correctSeat: "B",
   avatarBg: "from-purple-900/60 to-slate-900",
   accentColor: "border-purple-500/50"
 },
@@ -86,7 +86,7 @@ const DEFAULT_CASE_DATA = {
   profileText: "Aku selalu suka duduk dipaling ujung aku enggak peduli ujung mana.",
   image: "/assets/characters/Usopp.png",
   chibiImage: "/assets/characters/Usopp_Chibi.png",
-  correctSeat: "D",
+  correctSeat: "I",
   avatarBg: "from-green-900/60 to-slate-900",
   accentColor: "border-green-500/50"
 },
@@ -99,7 +99,7 @@ const DEFAULT_CASE_DATA = {
   profileText: "Jangan tempatkan aku di kursi J , ada memori buruk disana pokoknya jangan tempatkan aku disana!",
   image: "/assets/characters/Sanji.png",
   chibiImage: "/assets/characters/Sanji_chibi.png",
-  correctSeat: "E",
+  correctSeat: "C",
   avatarBg: "from-yellow-900/60 to-slate-900",
   accentColor: "border-yellow-500/50"
 },
@@ -112,7 +112,7 @@ const DEFAULT_CASE_DATA = {
   profileText: "Aku adalah dokter dan Tukang kayu itu selalu membuat kotor semua peralatanku , jadi aku taruh peralatan medisku tepat di sebelahnya agar aku bisa membersihkannya tepat waktu.",
   image: "/assets/characters/Tony Tony Chopper.png",
   chibiImage: "/assets/characters/Tony Tony Chopper_chibi.png",
-  correctSeat: "F",
+  correctSeat: "D",
   avatarBg: "from-pink-900/60 to-slate-900",
   accentColor: "border-pink-500/50"
 },
@@ -138,7 +138,7 @@ const DEFAULT_CASE_DATA = {
   profileText: "Aku adalah pengawal kapten yang loyal dan tegas Tugasku adalah melihat peta dan  kemudi kapal dan selalu duduk dibawah kapten.",
   image: "/assets/characters/Jinbe.png",
   chibiImage: "/assets/characters/Jinbe_chibi.png",
-  correctSeat: "I",
+  correctSeat: "G",
   avatarBg: "from-teal-900/60 to-slate-900",
   accentColor: "border-teal-500/50"
 }
