@@ -150,7 +150,7 @@ const DEFAULT_CASE_DATA = {
   statement: "Keberanian sejati lahir dari ketenangan hati.",
   profileText: "Mantan Shichibukai dan ahli kemudi Bajak Laut Topi Jerami.",
   image: "/assets/characters/Jinbe.png",
-  chibiImage: "/assets/characters/Jinbe_chibi.png",
+  chibiImage: "/assets/characters/Jinbe_Chibi.png",
   correctSeat: "I",
   avatarBg: "from-teal-900/60 to-slate-900",
   accentColor: "border-teal-500/50"
