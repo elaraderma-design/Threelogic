@@ -30,24 +30,24 @@ const DEFAULT_CASE_DATA = {
       name: "KAPTEN",
       role: "Kapten Kapal",
       shortBio: "Kapten Bajak Laut Topi Jerami. Pecinta daging, petualangan, dan kebebasan. Tidak pernah mundur saat melindungi teman-temannya.",
-      profileText: "Aku adalah orang yang tegas tidak ada seorang pun yang berani membantahku. Kalo kataku F harus F jangan dibantah!.",
       statement: "Aku akan menjadi Raja Bajak Laut! Tidak peduli seberapa kuat lawanku atau seberapa besar rintangannya, aku akan terus maju. Teman-temanku adalah hartaku yang paling berharga, dan siapa pun yang menyakiti mereka harus berhadapan denganku. Selama masih bisa berdiri, aku tidak akan menyerah pada mimpiku.",
+      profileText: "Seorang kapten muda yang penuh semangat dengan topi jerami khasnya. Memiliki kemampuan Buah Iblis yang membuat tubuhnya elastis seperti karet. Dikenal karena keberaniannya yang luar biasa, tekad yang tidak tergoyahkan, serta kemampuannya menginspirasi orang-orang di sekitarnya untuk mengejar impian mereka.",
       image: "/assets/characters/Monkey D. Luffy.png.png",
       chibiImage: "/assets/characters/Monkey D. Luffy_Chibi.png.png",
-      correctSeat: "F",
+      correctSeat: "D",
       avatarBg: "from-amber-900/60 to-slate-900",
       accentColor: "border-amber-500/50"
     },
     {
-      id: "ninja",
-      name: "NINJA",
-      role: "Ninja",
-      shortBio: "Ninja yang setia kepada kaptennya. Terus berlatih untuk menjadi pendekar pedang terkuat di dunia.",
+      id: "pendekar pedang",
+      name: "PENDEKAR PEDANG",
+      role: "Master Pedang",
+      shortBio: "Pendekar tiga pedang yang setia kepada kaptennya. Terus berlatih untuk menjadi pendekar pedang terkuat di dunia.",
       statement: "Aku tidak peduli seberapa kuat lawanku. Jika itu menghalangi jalan kaptenku, aku akan menebasnya. Janjiku untuk menjadi pendekar pedang nomor satu di dunia tidak akan pernah berubah.",
-      profileText: "Aku selalu duduk di sebelah kapten agar aku bisa menyelesaikan tugasku untuk melindunginya, dan kapten selalu suka aku disana.",
+      profileText: "Seorang ahli pedang dengan gaya Santoryu (Tiga Pedang). Dikenal karena tekadnya yang kuat, kesetiaannya kepada kru Topi Jerami, dan kemampuannya menghadapi musuh yang jauh lebih kuat tanpa rasa takut.",
       image: "/assets/characters/Roronoa-zoro.png",
       chibiImage: "/assets/characters/Roronoa-zoro_chibi.png",
-      correctSeat: "E",
+      correctSeat: "A",
       avatarBg: "from-purple-900/60 to-slate-900",
       accentColor: "border-purple-500/50"
     },
@@ -57,23 +57,23 @@ const DEFAULT_CASE_DATA = {
   role: "Navigator",
   shortBio: "Navigator jenius yang mampu membaca cuaca dan memetakan lautan dengan akurat. Sangat menyukai harta karun.",
   statement: "Lautan penuh bahaya, tetapi selama aku bisa membaca arahnya, aku akan membawa kru ini menuju impian mereka.",
-  profileText: "Aku selalu datang lebih awal supaya dapat tempat yang tenang karena Aku suka membaca saat makan, jauhkan aku dari kapten dan pemain musik itu.",
+  profileText: "Navigator andalan Bajak Laut Topi Jerami yang memiliki pengetahuan luar biasa tentang cuaca dan navigasi.",
   image: "/assets/characters/Nami.png",
   chibiImage: "/assets/characters/Nami_chibi.png",
-  correctSeat: "A",
+  correctSeat: "B",
   avatarBg: "from-orange-900/60 to-slate-900",
   accentColor: "border-orange-500/50"
 },
 {
   id: "robin",
   name: "NICO ROBIN",
-  role: "Pustakawan",
-  shortBio: "Pustakawan cerdas yang mencari kebenaran sejarah dunia melalui Poneglyph.",
+  role: "Arkeolog",
+  shortBio: "Arkeolog cerdas yang mencari kebenaran sejarah dunia melalui Poneglyph.",
   statement: "Sejarah tidak boleh dilupakan. Selama aku masih hidup, aku akan terus mencari kebenaran yang tersembunyi.",
-  profileText: "Aku adalah yang mengurus peta dan aku bekerja sama dengan seorang pustakawan yang mengurus buku di kapal ini, dan dia selalu duduk satu kursi sebelum aku ketika bekerja.",
+  profileText: "Arkeolog kru Topi Jerami yang memiliki pengetahuan mendalam tentang sejarah kuno.",
   image: "/assets/characters/Nico Robin.png",
   chibiImage: "/assets/characters/Nico Robin_chibi.png",
-  correctSeat: "B",
+  correctSeat: "C",
   avatarBg: "from-purple-900/60 to-slate-900",
   accentColor: "border-purple-500/50"
 },
@@ -83,10 +83,10 @@ const DEFAULT_CASE_DATA = {
   role: "Penembak Jitu",
   shortBio: "Penembak jitu kreatif dengan imajinasi tanpa batas. Bermimpi menjadi pejuang pemberani di lautan.",
   statement: "Aku mungkin takut, tapi keberanian bukan berarti tidak takut. Keberanian adalah tetap maju meskipun ketakutan itu ada.",
-  profileText: "Aku adalah penembak jitu dan selalu suka duduk dipaling ujung  agar semua bisa terlihat jelas, aku tidak peduli ujung mana!.",
+  profileText: "Seorang penembak jitu berbakat yang mengandalkan kecerdikan, strategi, dan ketepatan tembakan.",
   image: "/assets/characters/Usopp.png",
-  chibiImage: "/assets/characters/Usopp_Chibi.png",
-  correctSeat: "I",
+  chibiImage: "/assets/characters/Usopp_chibi.png",
+  correctSeat: "D",
   avatarBg: "from-green-900/60 to-slate-900",
   accentColor: "border-green-500/50"
 },
@@ -96,10 +96,10 @@ const DEFAULT_CASE_DATA = {
   role: "Koki",
   shortBio: "Koki berbakat yang bertarung menggunakan tendangan. Memiliki impian menemukan All Blue.",
   statement: "Aku memasak untuk memberi harapan dan tenaga kepada orang lain.",
-  profileText: "Aku koki dikapal ini Jangan tempatkan aku di kursi J , ada memori buruk disana yang membuat penyakit ku kambuh , jangan tempatkan aku disana!.",
+  profileText: "Koki utama Bajak Laut Topi Jerami yang ahli dalam seni memasak dan pertarungan kaki.",
   image: "/assets/characters/Sanji.png",
   chibiImage: "/assets/characters/Sanji_chibi.png",
-  correctSeat: "C",
+  correctSeat: "E",
   avatarBg: "from-yellow-900/60 to-slate-900",
   accentColor: "border-yellow-500/50"
 },
@@ -109,12 +109,25 @@ const DEFAULT_CASE_DATA = {
   role: "Dokter",
   shortBio: "Dokter rusa kutub yang bercita-cita menyembuhkan segala penyakit di dunia.",
   statement: "Aku ingin menjadi dokter yang bisa menyelamatkan siapa saja.",
-  profileText: "Aku adalah dokter dan koki punya penyakit yang bisa kambuh kapan saja, jadi aku selalu di sebelahnya agar bisa cepat menolongnya.",
+  profileText: "Dokter kru Topi Jerami yang cerdas, baik hati, dan selalu berusaha melindungi teman-temannya.",
   image: "/assets/characters/Tony Tony Chopper.png",
   chibiImage: "/assets/characters/Tony Tony Chopper_chibi.png",
-  correctSeat: "D",
+  correctSeat: "F",
   avatarBg: "from-pink-900/60 to-slate-900",
   accentColor: "border-pink-500/50"
+},
+{
+  id: "franky",
+  name: "FRANKY",
+  role: "Teknisi Kapal",
+  shortBio: "Cyborg dan pembuat kapal jenius yang membangun Thousand Sunny.",
+  statement: "Kapal yang hebat harus mampu membawa impian pemiliknya hingga ke ujung dunia.",
+  profileText: "Teknisi kapal dan insinyur berbakat yang menciptakan berbagai teknologi canggih.",
+  image: "/assets/characters/Franky.png",
+  chibiImage: "/assets/characters/Franky_chibi.png",
+  correctSeat: "G",
+  avatarBg: "from-blue-900/60 to-slate-900",
+  accentColor: "border-blue-500/50"
 },
 {
   id: "brook",
@@ -122,7 +135,7 @@ const DEFAULT_CASE_DATA = {
   role: "Musisi",
   shortBio: "Musisi kerangka hidup yang selalu membawa keceriaan melalui musiknya.",
   statement: "Musik mampu menghubungkan hati orang-orang.",
-  profileText: "Aku sering memainkan musik ketika semua crew kapal makan. Dan aku sangat suka dengan angka kelipatan 4",
+  profileText: "Musisi Bajak Laut Topi Jerami yang humoris, setia, dan memiliki kemampuan pedang yang sangat baik.",
   image: "/assets/characters/Brook.png",
   chibiImage: "/assets/characters/Brook_chibi.png",
   correctSeat: "H",
@@ -132,13 +145,13 @@ const DEFAULT_CASE_DATA = {
 {
   id: "jinbe",
   name: "JINBE",
-  role: "Nahkoda",
+  role: "Ahli Kemudi",
   shortBio: "Kesatria manusia ikan yang bijaksana dan ahli mengendalikan kapal di lautan berbahaya.",
   statement: "Keberanian sejati lahir dari ketenangan hati.",
-  profileText: "Aku adalah pengawal kapten yang loyal dan tegas Tugasku adalah mengemudikan kapal dan selalu duduk dibawah kapten.",
+  profileText: "Mantan Shichibukai dan ahli kemudi Bajak Laut Topi Jerami.",
   image: "/assets/characters/Jinbe.png",
   chibiImage: "/assets/characters/Jinbe_chibi.png",
-  correctSeat: "G",
+  correctSeat: "I",
   avatarBg: "from-teal-900/60 to-slate-900",
   accentColor: "border-teal-500/50"
 }
@@ -191,7 +204,7 @@ export default function App() {
     D: "shipwright"
   });
 
-  const [activeRightTab, setActiveRightTab] = useState('profile');
+  const [activeRightTab, setActiveRightTab] = useState('statement');
   const [showHowToPlay, setShowHowToPlay] = useState(false);
   const [showShipsLog, setShowShipsLog] = useState(false);
   const [showSeatSelectorModal, setShowSeatSelectorModal] = useState(false);
@@ -689,17 +702,6 @@ export default function App() {
             
             <div className="flex border-b-2 border-[#8a6d2b] bg-[#ede0c4]">
               <button
-                onClick={() => setActiveRightTab('profile')}
-                className={`flex-1 py-2.5 px-3 font-mono font-bold text-xs uppercase tracking-wider flex items-center justify-center space-x-1.5 transition-colors ${
-                  activeRightTab === 'profile'
-                    ? 'bg-[#fbf5e6] text-[#6b1d1d] border-b-2 border-[#6b1d1d]'
-                    : 'text-slate-700 hover:bg-[#e2d3b0]'
-                }`}
-              >
-                <User className="w-3.5 h-3.5" />
-                <span>PROFIL</span>
-              </button>
-              <button
                 onClick={() => setActiveRightTab('statement')}
                 className={`flex-1 py-2.5 px-3 font-mono font-bold text-xs uppercase tracking-wider flex items-center justify-center space-x-1.5 transition-colors ${
                   activeRightTab === 'statement'
@@ -709,6 +711,17 @@ export default function App() {
               >
                 <Search className="w-3.5 h-3.5" />
                 <span>KESAKSIAN</span>
+              </button>
+              <button
+                onClick={() => setActiveRightTab('profile')}
+                className={`flex-1 py-2.5 px-3 font-mono font-bold text-xs uppercase tracking-wider flex items-center justify-center space-x-1.5 transition-colors ${
+                  activeRightTab === 'profile'
+                    ? 'bg-[#fbf5e6] text-[#6b1d1d] border-b-2 border-[#6b1d1d]'
+                    : 'text-slate-700 hover:bg-[#e2d3b0]'
+                }`}
+              >
+                <User className="w-3.5 h-3.5" />
+                <span>PROFIL</span>
               </button>
             </div>
 
@@ -963,39 +976,6 @@ export default function App() {
                 <span className="text-2xl font-bold text-amber-100 font-mono">
                   {gameResult.correctCount} / {gameResult.total}
                 </span>
-              </div>
-            </div>
-
-            <div className="space-y-2">
-              <div className="text-xs font-mono text-amber-400 uppercase tracking-wider">
-                Rincian Evaluasi Kursi:
-              </div>
-              <div className="space-y-1.5 max-h-56 overflow-y-auto pr-1">
-                {gameResult.evaluation.map((item) => (
-                  <div
-                    key={item.character.id}
-                    className={`p-2.5 rounded-xl border flex items-center justify-between text-xs ${
-                      item.isCorrect
-                        ? 'bg-emerald-950/30 border-emerald-500/40 text-emerald-200'
-                        : 'bg-red-950/30 border-red-500/40 text-red-200'
-                    }`}
-                  >
-                    <div>
-                      <span className="font-bold text-amber-100">{item.character.name}</span>
-                      <span className="text-[10px] ml-2 opacity-80">
-                        (Ditempatkan di: Kursi {item.assignedSeat})
-                      </span>
-                    </div>
-
-                    <div className="flex items-center space-x-2 font-mono text-[11px]">
-                      {item.isCorrect ? (
-                        <CheckCircle2 className="w-4 h-4 text-emerald-400" />
-                      ) : (
-                        <XCircle className="w-4 h-4 text-red-400" />
-                      )}
-                    </div>
-                  </div>
-                ))}
               </div>
             </div>
 
