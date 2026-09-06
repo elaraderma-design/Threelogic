@@ -85,7 +85,7 @@ const DEFAULT_CASE_DATA = {
   statement: "Aku mungkin takut, tapi keberanian bukan berarti tidak takut. Keberanian adalah tetap maju meskipun ketakutan itu ada.",
   profileText: "SAku adalah penembak jitu dan selalu suka duduk dipaling ujung  agar semua bisa terlihat jelas, aku tidak peduli ujung mana!",
   image: "/assets/characters/Usopp.png",
-  chibiImage: "/assets/characters/Usopp_chibi.png",
+  chibiImage: "/assets/characters/Usopp_Chibi.png",
   correctSeat: "I",
   avatarBg: "from-green-900/60 to-slate-900",
   accentColor: "border-green-500/50"
