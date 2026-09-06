@@ -99,43 +99,44 @@ img {
   -webkit-overflow-scrolling: touch;
 }
 /* =========================================================
-   IPAD / TABLET — LAYOUT LEBIH KECIL & RAPI
+   IPAD — SCALE DOWN SELURUH UI
    ========================================================= */
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
 
-  /* Lebar konten dibuat lebih proporsional */
-  main.max-w-7xl {
-    max-width: 900px !important;
-    padding-left: 20px !important;
-    padding-right: 20px !important;
+  html,
+  body,
+  #root {
+    width: 100%;
+    min-height: 100%;
   }
 
-  /* Panel investigasi tetap 1 kolom
-     supaya tidak terlihat terlalu besar/sempit */
-  main.max-w-7xl > .grid.grid-cols-1 {
-    grid-template-columns: 1fr !important;
+  #root {
+    zoom: 0.70;
   }
 
-  /* Semua panel jangan terlalu tinggi */
-  main.max-w-7xl > .grid.grid-cols-1 > div {
-    height: 420px !important;
-    min-height: 420px !important;
+  /* Lebar aplikasi tetap penuh */
+  body {
+    overflow-x: hidden;
   }
 
-  /* Ukuran area kursi dibuat lebih kecil */
-  section .grid.grid-cols-2.sm\:grid-cols-5.md\:grid-cols-10 {
-    gap: 8px !important;
+  /* Header */
+  header {
+    transform-origin: top center;
   }
 
-  /* Kartu kursi lebih kecil */
-  section .grid.grid-cols-2.sm\:grid-cols-5.md\:grid-cols-10 > div {
-    min-width: 0 !important;
+  /* Area utama */
+  main {
+    max-width: 100% !important;
   }
 
-  /* Kurangi padding utama */
-  main.max-w-7xl {
-    padding-top: 16px !important;
-    padding-bottom: 16px !important;
+  /* Panel investigasi */
+  main > div {
+    max-width: 100%;
+  }
+
+  /* Kursi */
+  section {
+    max-width: 100%;
   }
 }
