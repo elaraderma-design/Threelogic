@@ -135,7 +135,7 @@ const DEFAULT_CASE_DATA = {
   role: "Ahli Kemudi",
   shortBio: "Kesatria manusia ikan yang bijaksana dan ahli mengendalikan kapal di lautan berbahaya.",
   statement: "Keberanian sejati lahir dari ketenangan hati.",
-  profileText: "Mantan Shichibukai dan ahli kemudi Bajak Laut Topi Jerami.",
+  profileText: "Aku adalah pengawal kapten yang loyal dan tegas Tugasku adalah mengemudikan kapal dan selalu duduk dibawah kapten.",
   image: "/assets/characters/Jinbe.png",
   chibiImage: "/assets/characters/Jinbe_chibi.png",
   correctSeat: "G",
