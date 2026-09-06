@@ -465,7 +465,7 @@ export default function App() {
             </p>
           </div>
 
-          <div className="grid grid-cols-2 sm:grid-cols-5 md:grid-cols-10 gap-2 md:gap-3">
+          <div className="grid grid-cols-2 sm:grid-cols-5 md:grid-cols-10 gap-2 md:gap-3 ipad-portrait-seat-grid">
             {caseData.seats.map((seat) => {
               const charId = seatAssignments[seat];
               const character = caseData.characters.find(c => c.id === charId);
@@ -532,7 +532,7 @@ export default function App() {
       </section>
 
       {}
-      <main className="max-w-7xl mx-auto px-4 py-6 space-y-6 flex-1">
+      <main className="max-w-7xl mx-auto px-4 py-6 space-y-6 flex-1 ipad-portrait-main">
         <div className="flex flex-col sm:flex-row items-center justify-between gap-3 border-b border-[#8a6d2b]/40 pb-3">
           <div>
             <div className="text-[10px] font-mono tracking-widest text-[#d4af37] uppercase">PANEL INVESTIGASI</div>
@@ -563,7 +563,7 @@ export default function App() {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-4 items-start">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-4 items-start ipad-portrait-investigation">
           
           {/* KOLOM 1: PILIH PROFIL (KIRI) */}
           <div className="lg:col-span-3 bg-[#0d0f28]/90 border-2 border-[#3d325c] rounded-2xl p-3 flex flex-col h-[520px] shadow-xl">
