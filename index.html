@@ -27,10 +27,25 @@
   <title>Apakah Kursi Ini Terisi? — Misteri Geladak Robin</title>
 </head>
   <body>
-    <div id="root"></div>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-      tailwind.config = {
+  <div id="root">
+    <div
+      style="
+        min-height:100vh;
+        background:#070814;
+        color:#e8e1d1;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        font-family:Arial,sans-serif;
+      "
+    >
+      Loading ThreeLogic...
+    </div>
+  </div>
+
+  <script>
+    tailwind = {
+      config: {
         theme: {
           extend: {
             fontFamily: {
@@ -41,7 +56,19 @@
           }
         }
       }
-    </script>
-    <script type="module" src="./main.tsx"></script>
-  </body>
+    };
+  </script>
+
+  <!-- Tailwind tidak boleh menghambat React -->
+  <script
+    src="https://cdn.tailwindcss.com"
+    async
+  ></script>
+
+  <!-- React/Vite tetap dijalankan -->
+  <script
+    type="module"
+    src="./main.tsx"
+  ></script>
+</body>
 </html>
