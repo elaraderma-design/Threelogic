@@ -10,7 +10,6 @@
 
   <meta name="theme-color" content="#070814" />
 
-  <!-- iPhone / Safari -->
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta
     name="apple-mobile-web-app-status-bar-style"
@@ -26,22 +25,9 @@
 
   <title>Apakah Kursi Ini Terisi? — Misteri Geladak Robin</title>
 </head>
-  <body>
-  <div id="root">
-    <div
-      style="
-        min-height:100vh;
-        background:#070814;
-        color:#e8e1d1;
-        display:flex;
-        align-items:center;
-        justify-content:center;
-        font-family:Arial,sans-serif;
-      "
-    >
-      Loading ThreeLogic...
-    </div>
-  </div>
+
+<body>
+  <div id="root"></div>
 
   <script>
     tailwind = {
@@ -59,16 +45,8 @@
     };
   </script>
 
-  <!-- Tailwind tidak boleh menghambat React -->
-  <script
-    src="https://cdn.tailwindcss.com"
-    async
-  ></script>
+  <script src="https://cdn.tailwindcss.com"></script>
 
-  <!-- React/Vite tetap dijalankan -->
-  <script
-    type="module"
-    src="./main.tsx"
-  ></script>
+  <script type="module" src="./main.tsx"></script>
 </body>
 </html>
