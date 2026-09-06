@@ -99,45 +99,137 @@ img {
   -webkit-overflow-scrolling: touch;
 }
 /* =========================================================
-   IPAD PORTRAIT ONLY
-   HP & KOMPUTER TIDAK TERPENGARUH
+   IPAD PORTRAIT = MOBILE LAYOUT
+   768px - 1023px
+   TIDAK MENGUBAH HP & KOMPUTER
    ========================================================= */
 
 @media screen and (min-width: 768px) and (max-width: 1023px) and (orientation: portrait) {
 
-  /* Konten utama lebih compact */
+  /* =========================
+     UKURAN HALAMAN
+     ========================= */
+
+  body {
+    overflow-x: hidden !important;
+  }
+
+  #root {
+    width: 100% !important;
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+  }
+
+
+  /* =========================
+     MAIN
+     ========================= */
+
   .ipad-portrait-main {
-    padding-left: 24px !important;
-    padding-right: 24px !important;
-    padding-top: 16px !important;
-    padding-bottom: 16px !important;
-    gap: 16px !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+    padding-top: 12px !important;
+    padding-bottom: 12px !important;
   }
 
-  /* Panel investigasi tetap satu kolom seperti HP */
+
+  /* =========================
+     AREA INVESTIGASI
+     KEMBALI SEPERTI MOBILE
+     ========================= */
+
   .ipad-portrait-investigation {
+    display: grid !important;
     grid-template-columns: 1fr !important;
-    gap: 16px !important;
+    width: 100% !important;
+    gap: 12px !important;
   }
 
-  /* Panel tidak setinggi versi desktop */
+
+  /* =========================
+     PANEL
+     ========================= */
+
   .ipad-portrait-investigation > div {
-    height: 440px !important;
-    min-height: 440px !important;
+    width: 100% !important;
+    height: auto !important;
+    min-height: 0 !important;
+    max-height: none !important;
   }
 
-  /* Kursi tetap compact */
+
+  /* =========================
+     KURSI
+     MOBILE = 2 KOLOM
+     ========================= */
+
   .ipad-portrait-seat-grid {
-    grid-template-columns: repeat(5, minmax(0, 1fr)) !important;
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
     gap: 8px !important;
   }
 
-  /* Kurangi sedikit ukuran teks di area iPad */
+
+  /* =========================
+     SEMUA CONTAINER BESAR
+     ========================= */
+
+  .max-w-7xl {
+    max-width: 100% !important;
+  }
+
+
+  /* =========================
+     JANGAN BIARKAN GRID MD
+     MENJADI 10 KOLOM
+     ========================= */
+
+  .md\:grid-cols-10 {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+
+
+  /* =========================
+     MD FLEX-ROW KEMBALI
+     KE ARAH VERTIKAL
+     ========================= */
+
+  .md\:flex-row {
+    flex-direction: column !important;
+  }
+
+
+  /* =========================
+     TOMBOL / KONTROL
+     ========================= */
+
+  .md\:w-auto {
+    width: 100% !important;
+  }
+
+
+  /* =========================
+     GAMBAR AGAR TIDAK TERLALU BESAR
+     ========================= */
+
+  img {
+    max-width: 100% !important;
+  }
+
+
+  /* =========================
+     TEKS JUDUL
+     ========================= */
+
   .ipad-portrait-main h1 {
     font-size: 1.5rem !important;
+    line-height: 1.2 !important;
   }
 
   .ipad-portrait-main h2 {
-    font-size: 1.1rem !important;
+    font-size: 1.15rem !important;
+    line-height: 1.25 !important;
   }
 }
