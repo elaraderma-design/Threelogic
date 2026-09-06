@@ -83,7 +83,7 @@ const DEFAULT_CASE_DATA = {
   role: "Penembak Jitu",
   shortBio: "Penembak jitu kreatif dengan imajinasi tanpa batas. Bermimpi menjadi pejuang pemberani di lautan.",
   statement: "Aku mungkin takut, tapi keberanian bukan berarti tidak takut. Keberanian adalah tetap maju meskipun ketakutan itu ada.",
-  profileText: "SAku adalah penembak jitu dan selalu suka duduk dipaling ujung  agar semua bisa terlihat jelas, aku tidak peduli ujung mana!",
+  profileText: "Aku adalah penembak jitu dan selalu suka duduk dipaling ujung  agar semua bisa terlihat jelas, aku tidak peduli ujung mana!",
   image: "/assets/characters/Usopp.png",
   chibiImage: "/assets/characters/Usopp_Chibi.png",
   correctSeat: "I",
