@@ -98,3 +98,46 @@ img {
 .custom-scrollbar {
   -webkit-overflow-scrolling: touch;
 }
+/* =========================================================
+   IPAD PORTRAIT ONLY
+   HP & KOMPUTER TIDAK TERPENGARUH
+   ========================================================= */
+
+@media screen and (min-width: 768px) and (max-width: 1023px) and (orientation: portrait) {
+
+  /* Konten utama lebih compact */
+  .ipad-portrait-main {
+    padding-left: 24px !important;
+    padding-right: 24px !important;
+    padding-top: 16px !important;
+    padding-bottom: 16px !important;
+    gap: 16px !important;
+  }
+
+  /* Panel investigasi tetap satu kolom seperti HP */
+  .ipad-portrait-investigation {
+    grid-template-columns: 1fr !important;
+    gap: 16px !important;
+  }
+
+  /* Panel tidak setinggi versi desktop */
+  .ipad-portrait-investigation > div {
+    height: 440px !important;
+    min-height: 440px !important;
+  }
+
+  /* Kursi tetap compact */
+  .ipad-portrait-seat-grid {
+    grid-template-columns: repeat(5, minmax(0, 1fr)) !important;
+    gap: 8px !important;
+  }
+
+  /* Kurangi sedikit ukuran teks di area iPad */
+  .ipad-portrait-main h1 {
+    font-size: 1.5rem !important;
+  }
+
+  .ipad-portrait-main h2 {
+    font-size: 1.1rem !important;
+  }
+}
