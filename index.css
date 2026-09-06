@@ -1,16 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;800&family=Inter:wght@400;500;600;700&display=swap');
 
-html, body, #root { margin: 0; min-height: 100%; }
-body { background: #070814; }
-* { box-sizing: border-box; }
-button, [role="button"] { -webkit-tap-highlight-color: transparent; }
-.custom-scrollbar::-webkit-scrollbar { width: 6px; }
-.custom-scrollbar::-webkit-scrollbar-track { background: rgba(15,23,42,.4); }
-.custom-scrollbar::-webkit-scrollbar-thumb { background: rgba(138,109,43,.7); border-radius: 999px; }
-@keyframes spin-slow { from { transform: rotate(0); } to { transform: rotate(360deg); } }
-.animate-spin-slow { animation: spin-slow 12s linear infinite; }
+html,
+body,
+#root {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  background: #070814;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button,
+[role="button"] {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: rgba(15, 23, 42, 0.4);
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(138, 109, 43, 0.7);
+  border-radius: 999px;
+}
+
+@keyframes spin-slow {
+  from {
+    transform: rotate(0);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 12s linear infinite;
+}
+
 /* =========================================================
-   iPHONE / SAFARI COMPATIBILITY
+   iPHONE / iPAD / SAFARI COMPATIBILITY
    ========================================================= */
 
 html {
@@ -26,7 +68,6 @@ body {
   margin: 0;
   background: #070814;
 
-  /* iPhone safe area */
   padding-top: env(safe-area-inset-top);
   padding-right: env(safe-area-inset-right);
   padding-bottom: env(safe-area-inset-bottom);
@@ -44,6 +85,7 @@ body {
 }
 
 /* Safari touch */
+
 button,
 input,
 textarea,
@@ -58,19 +100,22 @@ button {
   touch-action: manipulation;
 }
 
-/* Jangan membuat halaman melebar di iPhone */
+/* Jangan membuat halaman melebar */
+
 * {
   max-width: 100%;
 }
 
-/* Viewport Safari modern */
+/* Safari viewport */
+
 .min-h-screen {
   min-height: 100vh;
   min-height: 100svh;
   min-height: 100dvh;
 }
 
-/* Area aman untuk iPhone dengan Home Indicator */
+/* Safe area */
+
 @supports (padding: max(0px)) {
   .safe-area-bottom {
     padding-bottom: max(
@@ -87,149 +132,16 @@ button {
   }
 }
 
-/* Mencegah gambar keluar layar */
+/* Images */
+
 img {
   max-width: 100%;
   height: auto;
   -webkit-user-drag: none;
 }
 
-/* Safari scrollbar */
+/* Safari scrolling */
+
 .custom-scrollbar {
   -webkit-overflow-scrolling: touch;
-}
-/* =========================================================
-   IPAD PORTRAIT = MOBILE LAYOUT
-   768px - 1023px
-   TIDAK MENGUBAH HP & KOMPUTER
-   ========================================================= */
-
-@media screen and (min-width: 768px) and (max-width: 1023px) and (orientation: portrait) {
-
-  /* =========================
-     UKURAN HALAMAN
-     ========================= */
-
-  body {
-    overflow-x: hidden !important;
-  }
-
-  #root {
-    width: 100% !important;
-    max-width: 100% !important;
-    overflow-x: hidden !important;
-  }
-
-
-  /* =========================
-     MAIN
-     ========================= */
-
-  .ipad-portrait-main {
-    width: 100% !important;
-    max-width: 100% !important;
-    padding-left: 16px !important;
-    padding-right: 16px !important;
-    padding-top: 12px !important;
-    padding-bottom: 12px !important;
-  }
-
-
-  /* =========================
-     AREA INVESTIGASI
-     KEMBALI SEPERTI MOBILE
-     ========================= */
-
-  .ipad-portrait-investigation {
-    display: grid !important;
-    grid-template-columns: 1fr !important;
-    width: 100% !important;
-    gap: 12px !important;
-  }
-
-
-  /* =========================
-     PANEL
-     ========================= */
-
-  .ipad-portrait-investigation > div {
-    width: 100% !important;
-    height: auto !important;
-    min-height: 0 !important;
-    max-height: none !important;
-  }
-
-
-  /* =========================
-     KURSI
-     MOBILE = 2 KOLOM
-     ========================= */
-
-  .ipad-portrait-seat-grid {
-    display: grid !important;
-    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
-    gap: 8px !important;
-  }
-
-
-  /* =========================
-     SEMUA CONTAINER BESAR
-     ========================= */
-
-  .max-w-7xl {
-    max-width: 100% !important;
-  }
-
-
-  /* =========================
-     JANGAN BIARKAN GRID MD
-     MENJADI 10 KOLOM
-     ========================= */
-
-  .md\:grid-cols-10 {
-    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
-  }
-
-
-  /* =========================
-     MD FLEX-ROW KEMBALI
-     KE ARAH VERTIKAL
-     ========================= */
-
-  .md\:flex-row {
-    flex-direction: column !important;
-  }
-
-
-  /* =========================
-     TOMBOL / KONTROL
-     ========================= */
-
-  .md\:w-auto {
-    width: 100% !important;
-  }
-
-
-  /* =========================
-     GAMBAR AGAR TIDAK TERLALU BESAR
-     ========================= */
-
-  img {
-    max-width: 100% !important;
-  }
-
-
-  /* =========================
-     TEKS JUDUL
-     ========================= */
-
-  .ipad-portrait-main h1 {
-    font-size: 1.5rem !important;
-    line-height: 1.2 !important;
-  }
-
-  .ipad-portrait-main h2 {
-    font-size: 1.15rem !important;
-    line-height: 1.25 !important;
-  }
 }
