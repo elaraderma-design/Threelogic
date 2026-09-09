@@ -198,6 +198,7 @@ export default function App() {
   const [showResultModal, setShowResultModal] = useState(false);
   const [gameResult, setGameResult] = useState(null);
   const [readClues, setReadClues] = useState(new Set(['shipwright', 'musician', 'scholar']));
+  const placedCount = Object.keys(seatAssignments).length;
 
   const handleSelectCharacter = (charId) => {
     setSelectedCharId(charId);
@@ -766,12 +767,21 @@ export default function App() {
           </button>
 
           <button
-            onClick={handleSubmitGM}
-            className="py-3 px-10 rounded-xl bg-gradient-to-r from-[#8a6d2b] via-[#e5c158] to-[#8a6d2b] hover:from-[#a38237] hover:to-[#a38237] text-slate-950 font-mono font-extrabold text-xs uppercase tracking-widest border-2 border-amber-200 shadow-[0_0_20px_rgba(229,193,88,0.4)] transition-all transform active:scale-95 flex items-center space-x-2"
-          >
-            <Sparkles className="w-4 h-4 text-slate-950" />
-            <span>PERIKSA JAWABAN / GM</span>
-          </button>
+  onClick={handleSubmitGM}
+  disabled={placedCount < 9}
+  className={`py-3 px-10 rounded-xl font-mono font-extrabold text-xs uppercase tracking-widest border-2 transition-all flex items-center space-x-2 ${
+    placedCount < 9
+      ? "bg-slate-800 text-slate-500 border-slate-700 cursor-not-allowed opacity-60"
+      : "bg-gradient-to-r from-[#8a6d2b] via-[#e5c158] to-[#8a6d2b] hover:from-[#a38237] hover:to-[#a38237] text-slate-950 border-amber-200 shadow-[0_0_20px_rgba(229,193,88,0.4)] transform active:scale-95 cursor-pointer"
+  }`}
+>
+  <Sparkles className="w-4 h-4" />
+  <span>
+    {placedCount < 9
+      ? `ISI ${9 - placedCount} KURSI LAGI`
+      : "PERIKSA JAWABAN / GM"}
+  </span>
+</button>
         </div>
 
       </main>
