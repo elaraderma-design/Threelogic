@@ -184,12 +184,7 @@ export default function App() {
   const [selectedCharId, setSelectedCharId] = useState(DEFAULT_CASE_DATA.characters[0].id);
   const [showCoverBanner, setShowCoverBanner] = useState(true);
 
-  const [seatAssignments, setSeatAssignments] = useState({
-    A: "musician",
-    B: "scholar",
-    C: "archaeologist",
-    D: "shipwright"
-  });
+ const [seatAssignments, setSeatAssignments] = useState({});
 
   const [activeRightTab, setActiveRightTab] = useState('statement');
   const [showHowToPlay, setShowHowToPlay] = useState(false);
